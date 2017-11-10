@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Submitted Information</h1>
+      <div class="form-group">
+        <ul class="list-group">
+          <li class="list-group-item"><h3>Name: <strong><%= userData.name %></strong></h3></li>
+          <li class="list-group-item"><h3>Dojo Location: <strong><%= userData.location %></strong></h3></li>
+          <li class="list-group-item"><h3>Favorite Language: <strong><%= userData.language %></strong></h3></li>
+          <li class="list-group-item"><h3>Comment: <strong><%= userData.comment %></strong></h3></li>
+        </ul>
+        <a href="/">Go Back</a>
+      </div>
+    </div>
+  </body>
+</html>
